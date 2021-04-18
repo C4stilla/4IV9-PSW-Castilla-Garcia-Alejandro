@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/AnimacionIndex.css">
+    <link rel="stylesheet" href="css/Estilos.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <title>Problemas JS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/C4stilla icon HTML.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="cont">
+        <nav>
+            <div class="logo">
+                Problemas JavaScript
+            </div>
+            <label for="btn" class="icon">
+                <span class="fa fa-bars"></span>
+            </label>
+            <input type="checkbox" id="btn">
+            <ul>
+                <li>
+                    <label for="btn-1" class="show">Problmas secuenciales</label>
+                    <a href="#">Problemas secuenciales</a>
+                    <input type="checkbox" id="btn-1">
+                    <ul>
+                        <li><a href="p1.html">Problema 1</a></li>
+                        <li><a href="p2.html">Problema 2</a></li>
+                        <li><a href="p3.html">Problema 3</a></li>
+                        <li><a href="p4.html">Problema 4</a></li>
+                        <li><a href="p5.html">Problema 5</a></li>
+                        <li><a href="p6.html">Problema 6</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <label for="btn-2" class="show">Problemas selectivos compuestos</label>
+                    <a href="#">Problemas selectivos compuestos</a>
+                    <input type="checkbox" id="btn-2">
+                    <ul>
+                        <li><a href="p7.html">Problema 7</a></li>
+                        <li><a href="p8.html">Problema 8</a></li>
+                        <li><a href="p9.html">Problema 9</a></li>
+                        <li><a href="p10.html">Problema 10</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <label for="btn-3" class="show">Para más referencias visitar mi GitHub</label>
+                    <a href="https://github.com/Castill4lejandro">Para más referencias visitar mi GitHub</a>
+                </li>
+            </ul>
+        </nav>
+        <h2 class="jaja">
+            Iba a hacer algo como unas imagenes re cool pero al final dije, "yastan los enlaces en la barra superior ya esta bien" XDDD
+        </h2>
+    </div>
+    <footer class="footer">
+        <div class="row">
+            <div class="footer-col">
+                <h4>Castilla García Alejandro</h4>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/C4stilla"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/c.4stilla/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://github.com/Castill4lejandro"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        $('.icon').click(function () {
+            $('span').toggleClass("cancel");
+        });
+    </script>
+</body>
+
+</html>

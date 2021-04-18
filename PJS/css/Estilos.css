@@ -1,0 +1,175 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+  height: 100vh;
+}
+
+header {
+  background-color: #1b1b1b;
+  height: 50px;
+  width: 98%;
+  text-align: center;
+  text-shadow: 5px 5px 10px rgb(170, 6, 185);
+  padding: 0.5rem;
+  margin-left: 0;
+  margin-right: 0;
+  color: rgb(255, 255, 255);
+}
+
+header a{
+  font-weight: 300;
+  text-decoration: none;
+}
+
+header a:hover{
+  text-decoration: underline;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+
+td {
+  padding: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer {
+  text-align: center;
+  align-items: center;
+}
+
+.cam_textI {
+  padding: 5px;
+  font-size: 14px;
+  border: 2px;
+  border-style: solid;
+  border-radius: 5%;
+  border-color: rgb(29, 44, 87);
+  background-color: rgb(69, 94, 126);
+}
+
+.boton {
+  border: 0px;
+  border-style: solid;
+  border-color: rgb(0, 0, 0);
+  font-size: 15px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 5px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(59, 46, 107);
+  border-radius: 0%;
+}
+
+.boton:hover {
+  color: black;
+}
+
+p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+h2 {
+  text-align: center;
+}
+
+.container {
+  max-width: 1170px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+ul {
+  list-style: none;
+}
+
+.cont{
+   height: calc(100vh - 0px - 140px);
+}
+
+.footer {
+  background-color: #050505;
+  padding: 10px 0;
+  align-content: center;
+  height: 140px;
+}
+
+.footer-col {
+  width: 100%;
+  padding: 0 10px;
+}
+
+.footer-col h4 {
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+}
+
+.footer-col h4::before {
+  content: "";
+  position: absolute;
+  left: 0px;
+  bottom: -10px;
+  background-color: #350a97;
+  height: 2px;
+  box-sizing: border-box;
+  width: 1320px;
+}
+
+.footer-col ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+  font-size: 12px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+  color: #bbbbbb;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+  color: #ffffff;
+  padding-left: 8px;
+}
+
+.footer-col .social-links a {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover {
+  color: #24262b;
+  background-color: #ffffff;
+}
+
+.jaja{
+   padding: 20px 10px;
+   font-weight: 600;
+   font-size: 18px;
+   margin: 10px 0 15px 0;
+   color: rgb(59, 46, 107);
+}
