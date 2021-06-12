@@ -1,0 +1,9 @@
+Modelo\MCompra.class
+Modelo\DCompra.class
+Modelo\MProducto.class
+Modelo\MUsuario.class
+Servlet\CerrarSesion.class
+Servlet\VerificarUsuario.class
+Servlet\FinalizarCompra.class
+Control\Conexion.class
+Servlet\AgregarCarrito.class
